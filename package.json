@@ -22,6 +22,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
     "babel-jest": "^22.1.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-flow": "^6.23.0",
@@ -34,8 +35,5 @@
     "flow-bin": "^0.64.0",
     "jest": "^22.1.4",
     "rimraf": "^2.6.2"
-  },
-  "dependencies": {
-    "babel-eslint": "^8.2.1"
   }
 }
