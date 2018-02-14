@@ -1,8 +1,12 @@
 {
   "name": "urbanoe-model",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Contains Javascript Flow types.",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mbeauv/urbanoe-model.git"
+  },
   "scripts": {
     "prebuild": "rimraf dist && mkdir dist",
     "build": "babel src/ -d dist/ --copy-files --ignore __tests__",
