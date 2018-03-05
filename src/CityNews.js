@@ -27,7 +27,7 @@ export type CityNews = {
    */
   +actionableType: string,
 
-  //TODO Remove the following
+  // TODO Remove the following
   /**
    * Extra action information.  Not used anymore.  Should be phased out.
    */

@@ -15,7 +15,8 @@
     "test": "node_modules/jest/bin/jest.js",
     "testc": "node_modules/jest/bin/jest.js --coverage",
     "testw": "node_modules/jest/bin/jest.js --watch",
-    "doc": "documentation build src/** -f html -o docs"
+    "doc": "documentation build src/** -f html -o docs",
+    "lint": "./node_modules/.bin/eslint src/"
   },
   "keywords": [
     "urbanoe",
