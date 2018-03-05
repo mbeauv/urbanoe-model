@@ -1,6 +1,6 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f8c418381df2740467ee/maintainability)](https://codeclimate.com/github/mbeauv/urbanoe-model/maintainability)
 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/f8c418381df2740467ee/test_coverage)](https://codeclimate.com/github/mbeauv/urbanoe-model/test_coverage)
 
 
 # urbanoe-model
