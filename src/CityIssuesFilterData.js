@@ -1,5 +1,16 @@
 // @flow
 
+function constructTypesFilter(initValue) {
+  return {
+    pothole: initValue,
+    graffiti: initValue,
+    lostPet: initValue,
+    garbageCan: initValue,
+    brokenLight: initValue,
+    other: initValue,
+  };
+}
+
 /**
  * Used to filter issues based on issue types and statuses.
  */
@@ -28,14 +39,7 @@ export function createEmptyFilter() : CityIssuesFilterData {
       fixed: false,
       notFixed: false,
     },
-    types: {
-      pothole: false,
-      graffiti: false,
-      lostPet: false,
-      garbageCan: false,
-      brokenLight: false,
-      other: false,
-    },
+    types: constructTypesFilter(false),
   };
 }
 
@@ -50,13 +54,6 @@ export function createDefaultFilter() : CityIssuesFilterData {
       fixed: false,
       notFixed: true,
     },
-    types: {
-      pothole: true,
-      graffiti: true,
-      lostPet: true,
-      garbageCan: true,
-      brokenLight: true,
-      other: true,
-    },
+    types: constructTypesFilter(true),
   };
 }
