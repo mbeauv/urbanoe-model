@@ -17,3 +17,4 @@ export type { IssueProperties } from './IssueProperties';
 export type { IssueStateChange } from './IssueStateChange';
 export type { PieChartDataItem, PieChartData } from './PieChartData';
 export type { CityRelationship, CitySignature, UserProfileData } from './UserProfileData';
+export type { LoginInfo } from './LoginInfo';
