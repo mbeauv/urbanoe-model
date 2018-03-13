@@ -1,14 +1,14 @@
 // @flow
 
 /**
- * The LoginInfo class contains information returned from the login operation.
+ * The LoginInfo structure contains information from the login operation.
  */
 export type LoginInfo = {
 
-  /** Token associated with the user. */
+  /** Token for the user. */
   +authToken: string,
 
-  /** Unique identifier with the user. */
+  /** Identifier for the user. */
   +endUserId: number,
 
 };
