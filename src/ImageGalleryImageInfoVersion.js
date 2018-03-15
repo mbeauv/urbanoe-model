@@ -3,7 +3,7 @@
 /**
  * Information on a gallery image.
  */
-export type GalleryImageInfoVersion = {
+export type ImageGalleryImageInfoVersion = {
 
   /**
    * Name of the version of the image (usually something like "thumb",

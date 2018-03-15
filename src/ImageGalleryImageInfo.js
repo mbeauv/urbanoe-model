@@ -1,11 +1,11 @@
 // @flow
 
-import type { GalleryImageInfoVersion } from './GalleryImageInfoVersion';
+import type { ImageGalleryImageInfoVersion } from './ImageGalleryImageInfoVersion';
 
 /**
  * Information on a gallery image.
  */
-export type GalleryImageInfo = {
+export type ImageGalleryImageInfo = {
 
   /** Unique identifier for the image info. */
   +id: number,
@@ -14,6 +14,6 @@ export type GalleryImageInfo = {
   +label?: string,
 
   /** List of all versions of this image. */
-  +versions: Array<GalleryImageInfoVersion>,
+  +versions: Array<ImageGalleryImageInfoVersion>,
 
 }
