@@ -11,6 +11,9 @@ export type ImageGalleryInfo = {
   /** Unique name for the gallery */
   +name?: string,
 
+  /** Description of the content of the gallery. */
+  +description?: string,
+
   /** Number of images in the gallery id */
   +nbImages?: number,
 

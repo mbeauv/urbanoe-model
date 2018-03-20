@@ -20,3 +20,6 @@ export type { CityRelationship, CitySignature, UserProfileData } from './UserPro
 export type { LoginInfo } from './LoginInfo';
 export type { ImageGalleryInfo } from './ImageGalleryInfo';
 export type { ImageGalleryDetails } from './ImageGalleryDetails';
+export type { ImageGalleryImageInfo } from './ImageGalleryImageInfo';
+export type { ImageGalleryImageInfoDetails } from './ImageGalleryImageInfoDetails';
+export type { ImageGalleryImageInfoVersion } from './ImageGalleryImageInfoVersion';
