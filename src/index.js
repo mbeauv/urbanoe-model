@@ -23,3 +23,5 @@ export type { ImageGalleryDetails } from './ImageGalleryDetails';
 export type { ImageGalleryImageInfo } from './ImageGalleryImageInfo';
 export type { ImageGalleryImageInfoDetails } from './ImageGalleryImageInfoDetails';
 export type { ImageGalleryImageInfoVersion } from './ImageGalleryImageInfoVersion';
+export type { ImageScratchImageVariant } from './ImageScratchImageVariant';
+export type { ImageScratchDetails } from './ImageScratchDetails';
