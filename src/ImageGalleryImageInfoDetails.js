@@ -25,6 +25,9 @@ export type ImageGalleryImageInfoDetails = {
   /** Creation time of the image.  This is a Ruby formatted time string. */
   +createdAt: string,
 
+  /** Url of the original image */
+  +originalUrl: string,
+
   /** All of the versions of the image that exist. */
   +version: Array<ImageGalleryImageInfoVersion>
 
