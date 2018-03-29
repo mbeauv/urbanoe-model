@@ -15,9 +15,6 @@ export type ImageGalleryDetails = {
   /** Optional description of what the gallery contains. */
   +description?: string,
 
-  /** Number of images in the gallery id */
-  +nbImages: number,
-
   /** Time at which the gallery was created, ruby time string.
       (e.g. 2018-03-04T11:56:26.792Z) */
   +createdAt: string,

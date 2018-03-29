@@ -6,10 +6,10 @@
 export type ImageGalleryInfo = {
 
   /** Unique id for the gallery. */
-  +id?: number,
+  +id: number,
 
   /** Unique name for the gallery */
-  +name?: string,
+  +name: string,
 
   /** Description of the content of the gallery. */
   +description?: string,
