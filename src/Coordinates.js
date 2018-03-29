@@ -8,11 +8,11 @@
 export type Coordinates = {
 
   /** Longitude (float number using decimals) */
-  +longitude: Number,
+  +longitude: number,
 
   /** Latitude (float number using decimals) */
-  +latitude: Number,
+  +latitude: number,
 
   /** Accuracy for the coordinates (in meters) */
-  +accuracy?: Number,
+  +accuracy?: number,
 };
