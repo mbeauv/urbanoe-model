@@ -1,10 +1,9 @@
 // @flow
-import { ImageGalleryImageInfoSimple } from './ImageGalleryImageInfoSimple';
 
 /**
  * Details associated with a given gallery.
  */
-export type ImageGalleryDetails = {
+export type ImageGallery = {
 
   /** Unique id for the gallery. */
   +id: number,
@@ -17,9 +16,13 @@ export type ImageGalleryDetails = {
 
   /** Time at which the gallery was created, ruby time string.
       (e.g. 2018-03-04T11:56:26.792Z) */
-  +createdAt: string,
+  +createdOn: string,
 
-  /** List of images contained in the gallery. */
-  +imageInfos: Array<ImageGalleryImageInfoSimple>;
+  /** Time at which the gallery was last updated, ruby time string.
+      (e.g. 2018-03-04T11:56:26.792Z) */
+  +updatedOn: string,
+
+  /** Number of images stored in the gallery. */
+  +nbImages: number,
 
 };
