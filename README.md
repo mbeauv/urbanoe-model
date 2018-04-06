@@ -3,6 +3,8 @@
 
 # urbanoe-model
 
+This project is DEPRECATED. All logic found in the present directory was moved to urbanoe-communications.
+
 The Urbanoe platform uses a lot of Javascript.  To ensure consistency through the different parts of the system, we decided to use Flow. The present module defines a set of classes, types and constructs that define a common domain model when using Urbanoe.  Most of the constructs defined here are reflected in the REST API.  For example, if you want to know about a certain issue, you would receive an "IssueDetailsData" structure.
 
 ## Getting Started
